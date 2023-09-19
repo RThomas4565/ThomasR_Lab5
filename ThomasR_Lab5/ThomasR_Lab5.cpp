@@ -35,10 +35,10 @@ int main() {
 
     std::string userInput;
 
-    std::cout << "Enter the text to translate: ";
+    std::cout << "Input text to cypher: ";
     std::getline(std::cin, userInput);
 
-    std::cout << "Translated Text: ";
+    std::cout << "Encoded Message: ";
     for (char c : userInput) {
         char translatedChar = translateChar(c, cipherTranslation);
         std::cout << translatedChar;
