@@ -28,32 +28,9 @@ char translateChar(char inputChar, const std::unordered_map<char, char>& cipherT
 
 int main() {
     std::unordered_map<char, char> cipherTranslation = {
-        {'A', 'V'},
-        {'B', 'F'},
-        {'C', 'X'},
-        {'D', 'B'},
-        {'E', 'L'},
-        {'F', 'I'},
-        {'G', 'T'},
-        {'H', 'Z'},
-        {'I', 'J'},
-        {'J', 'R'},
-        {'K', 'P'},
-        {'L', 'H'},
-        {'M', 'D'},
-        {'N', 'K'},
-        {'O', 'N'},
-        {'P', 'O'},
-        {'Q', 'W'},
-        {'R', 'S'},
-        {'S', 'G'},
-        {'T', 'U'},
-        {'U', 'Y'},
-        {'V', 'Q'},
-        {'W', 'M'},
-        {'X', 'A'},
-        {'Y', 'C'},
-        {'Z', 'E'}
+        {'A', 'V'},{'B', 'F'},{'C', 'X'},{'D', 'B'},{'E', 'L'},{'F', 'I'},{'G', 'T'},{'H', 'Z'},{'I', 'J'},{'J', 'R'},
+        {'K', 'P'},{'L', 'H'}, {'M', 'D'}, {'N', 'K'}, {'O', 'N'},{'P', 'O'},{'Q', 'W'},{'R', 'S'},{'S', 'G'},
+        {'T', 'U'},{'U', 'Y'},{'V', 'Q'},{'W', 'M'},{'X', 'A'},{'Y', 'C'},{'Z', 'E'}
     };
 
     std::string userInput;
